@@ -1,3 +1,5 @@
+/* Diseño general */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +11,7 @@ body {
     background-color: #fff4e8;
     color: #60404b;
 }
+
 
 /* Encabezado */
 
@@ -24,6 +27,9 @@ header h1 {
     margin-bottom: 15px;
 }
 
+
+/* Menú */
+
 nav a {
     color: white;
     text-decoration: none;
@@ -34,6 +40,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
 
 /* Secciones */
 
@@ -53,6 +60,7 @@ p {
     line-height: 1.7;
 }
 
+
 /* Inicio */
 
 .inicio {
@@ -71,6 +79,9 @@ p {
     font-size: 36px;
 }
 
+
+/* Foto */
+
 .inicio img {
     width: 220px;
     height: 220px;
@@ -79,12 +90,16 @@ p {
     border: 6px solid #f3bfd0;
 }
 
+
 /* Proyectos */
 
 .proyectos {
     display: flex;
     gap: 20px;
 }
+
+
+/* Tarjetas */
 
 .tarjeta {
     background-color: #fffaf5;
@@ -98,6 +113,7 @@ p {
     color: #d86f92;
     margin-bottom: 12px;
 }
+
 
 /* Tecnologías */
 
@@ -115,6 +131,7 @@ p {
     border-radius: 20px;
 }
 
+
 /* Contacto */
 
 #contacto {
@@ -128,11 +145,17 @@ p {
     margin-right: auto;
 }
 
+
+/* Correo */
+
 .correo {
     color: #d86f92;
     font-weight: bold;
     margin: 15px 0 25px;
 }
+
+
+/* Formulario */
 
 form {
     display: flex;
@@ -154,6 +177,9 @@ textarea {
     font-family: Arial, sans-serif;
 }
 
+
+/* Botón */
+
 button {
     background-color: #d86f92;
     color: white;
@@ -168,6 +194,7 @@ button:hover {
     background-color: #c65e80;
 }
 
+
 /* Pie de página */
 
 footer {
@@ -177,7 +204,8 @@ footer {
     padding: 18px;
 }
 
-/* Celular */
+
+/* Para celular */
 
 @media (max-width: 700px) {
 
