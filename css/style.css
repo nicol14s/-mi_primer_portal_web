@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4e8;
+    color: #60404b;
+}
+
+/* Encabezado */
+
+header {
+    background-color: #e99ab5;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 55px 25px;
+}
+
+h2 {
+    color: #d86f92;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+/* Inicio */
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.inicio div {
+    flex: 1;
+}
+
+.inicio h2 {
+    text-align: left;
+    font-size: 36px;
+}
+
+.inicio img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #f3bfd0;
+}
+
+/* Proyectos */
+
+.proyectos {
+    display: flex;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: #fffaf5;
+    border: 2px solid #f0b7c9;
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1;
+}
+
+.tarjeta h3 {
+    color: #d86f92;
+    margin-bottom: 12px;
+}
+
+/* Tecnologías */
+
+.tecnologias {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.tecnologias span {
+    background-color: #e99ab5;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+}
+
+/* Contacto */
+
+#contacto {
+    background-color: #f9dfdf;
+    max-width: 100%;
+}
+
+#contacto > * {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.correo {
+    color: #d86f92;
+    font-weight: bold;
+    margin: 15px 0 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 11px;
+    border: 1px solid #d99aae;
+    border-radius: 6px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #d86f92;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c65e80;
+}
+
+/* Pie de página */
+
+footer {
+    background-color: #e99ab5;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+/* Celular */
+
+@media (max-width: 700px) {
+
+    .inicio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .inicio h2 {
+        text-align: center;
+    }
+
+    .proyectos {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}

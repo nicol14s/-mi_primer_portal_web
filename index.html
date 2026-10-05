@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí - Samantha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Samantha Nicole Martinez Guzman</h1>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#tecnologias">Tecnologías</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="inicio">
+        <div>
+            <h2>Hola, soy Samantha </h2>
+            <p>
+                Bienvenidos a mi página personal.
+                Aquí puedes conocer un poco sobre mí,
+                mis proyectos y las tecnologías que utilizo.
+            </p>
+        </div>
+
+        <img src="img/miperfil.jpg" alt="Foto de Samantha">
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+
+        <p>
+            Soy Samantha Nicole Martinez Guzman. Soy una persona amable
+            y creativa. Me gusta mucho el baile y también me gusta aprender
+            cosas nuevas relacionadas con la tecnología.
+        </p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Mis proyectos</h2>
+
+        <div class="proyectos">
+
+            <div class="tarjeta">
+                <h3>Portafolio personalizado</h3>
+                <p>
+                    Una página personal para mostrar información sobre mí,
+                    mis habilidades y mis proyectos.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Página para un negocio</h3>
+                <p>
+                    Una página web creada para presentar un negocio,
+                    sus productos y sus servicios.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Atrapa los cupcakes</h3>
+                <p>
+                    Un juego donde se deben atrapar cupcakes para obtener
+                    puntos y evitar los cupcakes malos.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="tecnologias">
+        <h2>Tecnologías que utilizo</h2>
+
+        <div class="tecnologias">
+            <span>HTML5</span>
+            <span>CSS</span>
+            <span>Java</span>
+            <span>JavaScript</span>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <p>Si deseas contactarme, puedes escribirme:</p>
+
+        <p class="correo">
+             guzmannikol1415@gmail.com
+        </p>
+
+        <form id="formulario">
+
+            <label>Nombre</label>
+            <input type="text" id="nombre" required>
+
+            <label>Correo electrónico</label>
+            <input type="email" id="correo" required>
+
+            <label>Mensaje</label>
+            <textarea id="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+        <p id="respuesta"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Samantha Nicole Martinez Guzman</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
